@@ -1,1 +1,786 @@
-drishya tattoo
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Drishya Tattoo — Premium tattoo studio in Boudha, Kathmandu. Ink Your Story with Art." />
+    <title>Drishya Tattoo | Ink Your Story with Art</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="./heros.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <!-- Sticky Navbar -->
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="#home" aria-label="Drishya Tattoo home">
+          <span class="brand__kicker">Boudha Ink Gallery Art</span>
+          <span class="brand__row">
+            <img class="brand__logo" src="./companylogo.png" alt="Drishya Tattoo logo" />
+            <span class="brand__name brand__display">Drishya Tattoo</span>
+          </span>
+        </a>
+
+        <button class="icon-btn nav__toggle" type="button" data-mobile-toggle aria-label="Open menu" aria-expanded="false">
+          <span class="sr-only">Menu</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button>
+
+        <div class="nav__panel" data-mobile-panel>
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#home">Home</a></li>
+            <li><a class="nav__link" href="#team">Our Team</a></li>
+            <li><a class="nav__link" href="#about">About</a></li>
+            <li><a class="nav__link" href="#services">Services</a></li>
+            <li><a class="nav__link" href="#gallery">Gallery</a></li>
+            <li><a class="nav__link" href="#shop">Art Shop</a></li>
+            <li><a class="nav__link" href="#booking">Booking</a></li>
+            <li><a class="nav__link" href="#contact">Contact</a></li>
+          </ul>
+
+          <div class="nav__actions">
+            <button class="icon-btn" type="button" data-open-cart aria-label="Open cart">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2Zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2ZM6.2 6h14.95c.9 0 1.55.86 1.3 1.73l-1.6 5.6c-.22.77-.92 1.3-1.72 1.3H8.2c-.78 0-1.47-.5-1.7-1.24L4.3 4H2"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span class="badge" data-cart-count aria-hidden="true">0</span>
+            </button>
+            <a class="btn btn--ghost" href="#booking">Book Now</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section class="hero" id="home" aria-label="Home">
+        <div class="hero__bg" role="img" aria-label="Tattoo studio hero image"></div>
+        <div class="container hero__content">
+          <p class="kicker">Boudha Ink Gallery Art</p>
+          <h1 class="hero__title brand__display">Drishya Tattoo</h1>
+          <p class="hero__tagline">Ink Your Story with Art</p>
+          <div class="hero__cta">
+            <a class="btn" href="#booking">Book Now</a>
+            <a class="btn btn--ghost" href="#gallery">View Gallery</a>
+          </div>
+          <div class="trust">
+            <div class="trust__item">
+              <span class="trust__value">Est. 2012</span>
+              <span class="trust__label">Boudha, Kathmandu</span>
+            </div>
+            <div class="trust__item">
+              <span class="trust__value">Hygiene-first</span>
+              <span class="trust__label">Premium studio standards</span>
+            </div>
+            <div class="trust__item">
+              <span class="trust__value">Artist-led</span>
+              <span class="trust__label">Custom, meaningful designs</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- OUR TEAM -->
+      <section class="section" id="team" aria-label="Our Team">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Our Team</h2>
+            <p class="section__sub">
+              Trust starts with visibility. Meet the artists and the people who keep your experience professional, clean, and comfortable.
+            </p>
+          </div>
+
+          <div class="grid grid--cards">
+            <button class="card person" type="button" data-person="raju">
+              <span class="card__media">
+                <img src="./raju founder main artist.jpg" alt="Raju — Founder & Main Artist" loading="lazy" />
+              </span>
+              <span class="card__body">
+                <span class="pill">Founder &amp; Main Artist</span>
+                <span class="card__title">Raju</span>
+                <span class="card__meta">15+ years experience</span>
+                <span class="card__desc">Founder-led quality with a hygiene-first process and original designs. Click to read his message.</span>
+              </span>
+              <span class="card__arrow" aria-hidden="true">View</span>
+            </button>
+
+            <button class="card person" type="button" data-person="urken">
+              <span class="card__media">
+                <img src="./urken artist.jpg" alt="Urken — artist" loading="lazy" />
+              </span>
+              <span class="card__body">
+                <span class="pill">artist</span>
+                <span class="card__title">Urken</span>
+                <span class="card__meta">7+ years experience</span>
+                <span class="card__desc">Freehand flow, strong linework, and placement that complements your body.</span>
+              </span>
+              <span class="card__arrow" aria-hidden="true">View</span>
+            </button>
+
+            <button class="card person" type="button" data-person="suvas">
+              <span class="card__media">
+                <img src="./public/images/subash artist.jpg" alt="Suvas — artist" loading="lazy" />
+              </span>
+              <span class="card__body">
+                <span class="pill">artist</span>
+                <span class="card__title">Suvas</span>
+                <span class="card__meta">7+ years experience</span>
+                <span class="card__desc">High-detail realism with careful shading and a true-to-life finish.</span>
+              </span>
+              <span class="card__arrow" aria-hidden="true">View</span>
+            </button>
+
+            <button class="card person" type="button" data-person="robin">
+              <span class="card__media">
+                <img src="./public/images/ROBIN manager.jpg" alt="Robin — Manager" loading="lazy" />
+              </span>
+              <span class="card__body">
+                <span class="pill">Manager</span>
+                <span class="card__title">Robin</span>
+                <span class="card__meta">Studio operations</span>
+                <span class="card__desc">Bookings, aftercare guidance, and a smooth experience from start to finish.</span>
+              </span>
+              <span class="card__arrow" aria-hidden="true">View</span>
+            </button>
+          </div>
+
+          <div class="artist-spotlights" aria-label="Artist profiles">
+            <article class="artist-spotlight" id="artist-raju">
+              <div class="artist-spotlight__media">
+                <img src="./raju founder main artist.jpg" alt="Raju — Founder &amp; Main Artist" loading="lazy" width="400" height="480" />
+              </div>
+              <div class="artist-spotlight__body">
+                <p class="kicker">Founder &amp; Artist</p>
+                <h3 class="artist-spotlight__name">Raju</h3>
+                <p class="artist-spotlight__meta">15+ years experience</p>
+                <div class="artist-spotlight__bio">
+                  <p>
+                    I founded Drishya Tattoo with a clear and purposeful vision: to create a studio where artistry, authenticity, and trust define every client
+                    experience. Each tattoo I create is treated as a unique and deeply personal work of art—carefully designed to align with the individual’s
+                    identity, story, and the way the artwork evolves over time.
+                  </p>
+                  <p>
+                    My practice is grounded in an uncompromising commitment to the highest standards of hygiene, precision, and professional integrity. From
+                    consultation to execution, every step is carried out with meticulous attention to detail, ensuring both safety and artistic excellence.
+                  </p>
+                  <p>
+                    In recognition of my contributions to the field of art, I was honored in 2022 by the Nepal Academy of Fine Arts and received recognition
+                    from the Right Honourable President Bidya Devi Bhandari. I am also an award-winning tattoo artist, reflecting my continued dedication to
+                    excellence and innovation in the industry.
+                  </p>
+                  <p>
+                    My artistic journey began in 2009 with traditional Thangka painting, which laid the foundation for discipline, symbolism, and fine detail in my
+                    work. This background continues to influence my approach, allowing me to bring cultural authenticity and artistic depth into every tattoo I
+                    create.
+                  </p>
+                  <p>
+                    I specialize in authentic Buddhist art, Nepali traditional designs, fully customized concepts, and advanced freehand tattooing. Each piece is
+                    thoughtfully crafted to remain timeless, meaningful, and artistically distinctive.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="split">
+            <div class="split__col">
+              <h3 class="split__title">International Artist</h3>
+              <p class="split__desc">Guest artist sessions bring fresh styles and techniques—available on selected dates.</p>
+              <button class="card person person--compact person--international" type="button" data-person="nav">
+                <span class="card__media">
+                  <img src="./public/images/international artist.jpg" alt="Nav — International Artist" loading="lazy" />
+                </span>
+                <span class="card__body">
+                  <span class="pill">International Artist</span>
+                  <span class="card__title">Nav</span>
+                  <span class="card__meta">Guest sessions · Color realism</span>
+                  <span class="card__desc">Specialized in color realism tattoo—tap for full profile and booking details.</span>
+                </span>
+                <span class="card__arrow" aria-hidden="true">View</span>
+              </button>
+            </div>
+
+            <div class="split__col">
+              <h3 class="split__title">Internal Artists</h3>
+              <p class="split__desc">
+                A studio is more than one artist. Our internal artists help with design refinement, prep, and consistent premium execution.
+              </p>
+              <div class="grid grid--mini">
+                <div class="card person person--mini person--textonly" role="group" aria-label="Internal artist — Linework specialist">
+                  <span class="card__body">
+                    <span class="pill">Internal Artist</span>
+                    <span class="card__title">Linework Specialist</span>
+                    <span class="card__desc">Crisp outlines, symmetry, and refined geometry for clean, long-lasting results.</span>
+                  </span>
+                </div>
+                <div class="card person person--mini person--textonly" role="group" aria-label="Internal artist — Blackwork & shading">
+                  <span class="card__body">
+                    <span class="pill">Internal Artist</span>
+                    <span class="card__title">Blackwork &amp; Shading</span>
+                    <span class="card__desc">Smooth gradients, contrast control, and a premium healed finish.</span>
+                  </span>
+                </div>
+                <div class="card person person--mini person--textonly" role="group" aria-label="Internal artist — Fine line minimal">
+                  <span class="card__body">
+                    <span class="pill">Internal Artist</span>
+                    <span class="card__title">Fine Line Minimal</span>
+                    <span class="card__desc">Elegant minimal pieces with careful placement, proportion, and refinement.</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section section--soft section--about-cosmos" id="about" aria-label="About">
+        <div class="container">
+          <div class="about">
+            <div class="about__copy">
+              <div class="section__head section__head--tight">
+                <h2 class="section__title">About Drishya Tattoo</h2>
+                <p class="section__sub">
+                  Established in <strong>2012</strong>, we are a professional tattoo studio in <strong>Boudha, Kathmandu</strong> focused on creativity,
+                  hygiene, and customer satisfaction.
+                </p>
+              </div>
+              <div class="prose">
+                <p>
+                  At Drishya Tattoo, we offer <strong>premium tattoo services</strong> built on original design, careful placement, and a clean,
+                  professional process. Every piece is approached as art—planned for the way it looks today and how it will heal over time.
+                </p>
+                <p>
+                  Our <strong>Tattoo Training School</strong> is structured for serious learners, covering fundamentals, hygiene discipline, studio workflow,
+                  and hands-on practice in a real professional environment.
+                </p>
+                <p>
+                  We also create <strong>Handicrafts Arts</strong>—handmade artworks crafted with patience and detail for collectors, gifting, and decor.
+                </p>
+                <p>
+                  What makes us different is our focus on <strong>creativity</strong>, <strong>hygiene</strong>, <strong>originality</strong>, and
+                  <strong>professionalism</strong>. We don’t copy—our goal is to design something that fits you and earns your trust from consultation to
+                  aftercare.
+                </p>
+              </div>
+              <ul class="checklist">
+                <li>
+                  <span class="checklist__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                  <span class="checklist__text"><strong>Premium hygiene standards</strong> with careful prep, sterilization, and aftercare guidance.</span>
+                </li>
+                <li>
+                  <span class="checklist__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                  <span class="checklist__text"><strong>Design collaboration</strong> to match your story, body placement, and long-term wear.</span>
+                </li>
+                <li>
+                  <span class="checklist__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                  <span class="checklist__text"><strong>Comfort-first experience</strong> with clear communication and professional care.</span>
+                </li>
+              </ul>
+              <figure class="quote" aria-label="Message from the founder">
+                <blockquote>
+                  “My vision is to make Drishya Tattoo a place where art and trust come first. I’m passionate about tattooing and handicrafts because each
+                  piece carries a story. I focus on originality, hygiene, and precision in every session—so you feel confident, comfortable, and proud of the
+                  result. Thank you for trusting us with your story.”
+                </blockquote>
+                <figcaption>
+                  <span class="quote__name">Raju</span>
+                  <span class="quote__role">Founder &amp; Main Artist</span>
+                </figcaption>
+              </figure>
+              <div class="about__cta">
+                <a class="btn" href="#booking">Book a Consultation</a>
+                <a class="btn btn--ghost" href="#services">Explore Services</a>
+              </div>
+            </div>
+            <div class="about__media">
+              <div class="frame">
+                <img src="./hero-studio.png" alt="Inside Drishya Tattoo studio" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section" id="services" aria-label="Services">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Services</h2>
+            <p class="section__sub">Click a service to preview real work and see what to expect.</p>
+          </div>
+
+          <div class="grid grid--services">
+            <button class="service" type="button" data-service="tattoo">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M8 14 18.5 3.5a2.1 2.1 0 0 1 3 3L11 17l-4 1 1-4Z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path d="M6 18h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+              </span>
+              <span class="service__title">Tattoo Inking</span>
+              <span class="service__desc">Custom designs, clean execution, and a premium healed finish—built around your story.</span>
+              <span class="service__cta" aria-hidden="true">View tattoo gallery</span>
+            </button>
+
+            <button class="service" type="button" data-service="training">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M4 19V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                  <path d="M6 17h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                  <path d="M8 7h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+              </span>
+              <span class="service__title">Tattoo Training School</span>
+              <span class="service__desc">Structured learning with studio discipline—foundation, hygiene, technique, and practice.</span>
+              <span class="service__cta" aria-hidden="true">View training images</span>
+            </button>
+
+            <button class="service" type="button" data-service="handicrafts">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 3l3 6 6 .9-4.5 4.4 1.1 6.3L12 17.9 6.4 20.6 7.5 14.3 3 9.9 9 9l3-6Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="service__title">Handicrafts Arts</span>
+              <span class="service__desc">Premium handmade artworks crafted with care—ideal for gifting, decor, and collectors.</span>
+              <span class="service__cta" aria-hidden="true">View handicraft products</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="section section--soft" id="gallery" aria-label="Gallery">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Gallery</h2>
+            <p class="section__sub">Filter by category and tap any image for a premium lightbox preview.</p>
+          </div>
+
+          <div class="filters" role="tablist" aria-label="Gallery filters">
+            <button class="chip is-active" type="button" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="chip" type="button" data-filter="tattoo" role="tab" aria-selected="false">Tattoo</button>
+            <button class="chip" type="button" data-filter="training" role="tab" aria-selected="false">Training</button>
+            <button class="chip" type="button" data-filter="handicrafts" role="tab" aria-selected="false">Handicrafts Arts</button>
+          </div>
+
+          <div class="masonry" data-gallery-grid aria-live="polite"></div>
+        </div>
+      </section>
+
+      <!-- ART SHOP -->
+      <section class="section" id="shop" aria-label="Art Shop">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Art Shop</h2>
+            <p class="section__sub">Curated premium artworks. Add to cart, choose size, and checkout with an internal form.</p>
+          </div>
+
+          <div class="grid grid--shop" data-shop-grid></div>
+
+          <div class="note">
+            <p class="note__title">Pricing (all products)</p>
+            <p class="note__body">
+              <strong>Large Size (37 x 64 inches):</strong> Rs. 12,000 &nbsp;·&nbsp; <strong>Small Size:</strong> Rs. 6,000
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- BOOKING -->
+      <section class="section section--soft" id="booking" aria-label="Booking">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Booking</h2>
+            <p class="section__sub">Choose a service, share the details, and we’ll confirm your slot.</p>
+          </div>
+
+          <div class="form-wrap">
+            <form class="form" id="bookingForm" novalidate>
+              <div class="form__row">
+                <label class="field">
+                  <span class="field__label">Select Service</span>
+                  <select class="field__control" name="serviceType" required>
+                    <option value="" selected disabled>Select service</option>
+                    <option value="tattoo">Tattoo Inking</option>
+                    <option value="tanning">Tanning</option>
+                    <option value="school">School</option>
+                    <option value="handicrafts">Handicrafts</option>
+                  </select>
+                  <span class="field__hint">We’ll show relevant fields based on your selection.</span>
+                </label>
+              </div>
+
+              <div class="form__row form__row--2">
+                <label class="field">
+                  <span class="field__label">Name</span>
+                  <input class="field__control" type="text" name="name" autocomplete="name" required />
+                </label>
+                <label class="field">
+                  <span class="field__label">Phone</span>
+                  <input class="field__control" type="tel" name="phone" autocomplete="tel" required />
+                </label>
+              </div>
+
+              <div class="form__row form__row--2">
+                <label class="field">
+                  <span class="field__label">Date</span>
+                  <input class="field__control" type="date" name="date" required />
+                </label>
+                <label class="field">
+                  <span class="field__label">Preferred time (optional)</span>
+                  <input class="field__control" type="time" name="time" />
+                </label>
+              </div>
+
+              <div class="form__row" data-tattoo-only hidden>
+                <label class="field">
+                  <span class="field__label">Tattoo placement (optional)</span>
+                  <input class="field__control" type="text" name="placement" placeholder="e.g., forearm, shoulder, back" />
+                </label>
+              </div>
+
+              <div class="form__row" data-handicrafts-only hidden>
+                <label class="field">
+                  <span class="field__label">Interested artwork (optional)</span>
+                  <select class="field__control" name="handicraftInterest">
+                    <option value="" selected>Choose product (optional)</option>
+                    <option value="Handicrafts Arts">Handicrafts Arts</option>
+                    <option value="Creation of Cosmos">Creation of Cosmos</option>
+                    <option value="Praying for COVID">Praying for COVID</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="form__row">
+                <label class="field">
+                  <span class="field__label">Description</span>
+                  <textarea class="field__control" name="description" rows="4" placeholder="Tell us about your idea, size, references, or any question." required></textarea>
+                </label>
+              </div>
+
+              <div class="form__actions">
+                <button class="btn" type="submit">Submit Booking</button>
+                <p class="form__msg" id="bookingMsg" role="status" aria-live="polite"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact" aria-label="Contact">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Contact</h2>
+            <p class="section__sub">Boudha, Kathmandu, Nepal. Visit us or message us on social platforms.</p>
+          </div>
+
+          <div class="contact">
+            <div class="contact__info">
+              <div class="panel">
+                <h3 class="panel__title">Studio Location</h3>
+                <p class="panel__text"><strong>Boudha, Kathmandu, Nepal</strong></p>
+                <div class="social">
+                  <a class="social__link" data-social="facebook" href="https://www.facebook.com/boudhainkgalleryart/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M14 8h2V5h-2c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h2.2l.8-3H13V9c0-.6.4-1 1-1Z" />
+                    </svg>
+                  </a>
+                  <a class="social__link" data-social="instagram" href="https://www.instagram.com/drishya_tattoo/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <rect x="5" y="5" width="14" height="14" rx="4" />
+                      <path d="M16 8.2h.01" />
+                      <path d="M12 10a2.7 2.7 0 1 0 2.7 2.7A2.7 2.7 0 0 0 12 10Z" />
+                    </svg>
+                  </a>
+                  <a class="social__link" data-social="youtube" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M21 12s0-3.6-.5-5a2.6 2.6 0 0 0-1.8-1.8C17.2 4.7 12 4.7 12 4.7s-5.2 0-6.7.5A2.6 2.6 0 0 0 3.5 7C3 8.4 3 12 3 12s0 3.6.5 5a2.6 2.6 0 0 0 1.8 1.8c1.5.5 6.7.5 6.7.5s5.2 0 6.7-.5a2.6 2.6 0 0 0 1.8-1.8c.5-1.4.5-5 .5-5Z" />
+                      <path d="M10.5 9.5 15 12l-4.5 2.5Z" />
+                    </svg>
+                  </a>
+                </div>
+                <p class="panel__fine">For fastest replies, use WhatsApp.</p>
+              </div>
+            </div>
+
+            <div class="contact__map">
+              <div class="map-frame" aria-label="Google Map">
+                <iframe
+                  title="Drishya Tattoo location map"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps?q=Drishya%20Tattoo%20Boudha%20Kathmandu&amp;output=embed"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-wrap contact__form-wrap">
+            <h3 class="panel__title" style="margin-top:0">Send a message</h3>
+            <p class="panel__text" style="margin-bottom:14px">Tell us what you need—we’ll reply on WhatsApp with the same details.</p>
+            <form class="form" id="contactForm" novalidate>
+              <div class="form__row">
+                <label class="field">
+                  <span class="field__label">Select Service</span>
+                  <select class="field__control" name="service" required>
+                    <option value="" selected disabled>Select service</option>
+                    <option value="Tattoo Inking">Tattoo Inking</option>
+                    <option value="Tattoo Training School">Tattoo Training School</option>
+                    <option value="Handicrafts">Handicrafts</option>
+                  </select>
+                </label>
+              </div>
+              <div class="form__row form__row--2">
+                <label class="field">
+                  <span class="field__label">Name</span>
+                  <input class="field__control" type="text" name="name" autocomplete="name" required />
+                </label>
+                <label class="field">
+                  <span class="field__label">Phone</span>
+                  <input class="field__control" type="tel" name="phone" autocomplete="tel" required />
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="field">
+                  <span class="field__label">Email (optional)</span>
+                  <input class="field__control" type="email" name="email" autocomplete="email" />
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="field">
+                  <span class="field__label">Message</span>
+                  <textarea class="field__control" name="message" rows="4" placeholder="Your question or request." required></textarea>
+                </label>
+              </div>
+              <div class="form__actions">
+                <button class="btn" type="submit">Send via WhatsApp</button>
+                <p class="form__msg" id="contactMsg" role="status" aria-live="polite"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <p class="footer__kicker">Boudha Ink Gallery Art</p>
+          <p class="footer__name brand__display">Drishya Tattoo</p>
+          <p class="footer__tag">Ink Your Story with Art</p>
+        </div>
+
+        <div class="footer__links" aria-label="Quick links">
+          <p class="footer__title">Quick links</p>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#shop">Art Shop</a></li>
+            <li><a href="#booking">Booking</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__social">
+          <p class="footer__title">Social</p>
+          <div class="social social--footer">
+            <a class="social__link" data-social="facebook" href="https://www.facebook.com/boudhainkgalleryart/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14 8h2V5h-2c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h2.2l.8-3H13V9c0-.6.4-1 1-1Z" />
+              </svg>
+            </a>
+            <a class="social__link" data-social="instagram" href="https://www.instagram.com/drishya_tattoo/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="5" y="5" width="14" height="14" rx="4" />
+                <path d="M16 8.2h.01" />
+                <path d="M12 10a2.7 2.7 0 1 0 2.7 2.7A2.7 2.7 0 0 0 12 10Z" />
+              </svg>
+            </a>
+            <a class="social__link" data-social="youtube" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M21 12s0-3.6-.5-5a2.6 2.6 0 0 0-1.8-1.8C17.2 4.7 12 4.7 12 4.7s-5.2 0-6.7.5A2.6 2.6 0 0 0 3.5 7C3 8.4 3 12 3 12s0 3.6.5 5a2.6 2.6 0 0 0 1.8 1.8c1.5.5 6.7.5 6.7.5s5.2 0 6.7-.5a2.6 2.6 0 0 0 1.8-1.8c.5-1.4.5-5 .5-5Z" />
+                <path d="M10.5 9.5 15 12l-4.5 2.5Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer__bar">
+        <p>© <span data-year></span> Drishya Tattoo. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- WhatsApp (floating, bottom-right only) -->
+    <a class="wa" data-social="whatsapp" href="https://wa.me/9779712014211" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+      <svg class="wa__icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="#ffffff" d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3Z" />
+        <path fill="#25D366" d="M9.2 9.1c.2-.4.5-.4.8-.4h.6c.2 0 .4 0 .5.4l.7 1.8c.1.3.1.5-.1.8l-.4.5c-.1.2-.1.4 0 .6.3.6 1.1 1.5 1.9 2 .5.3.8.4 1 .3l.7-.4c.2-.1.4-.1.7 0l1.7.8c.3.1.4.4.3.7-.2.6-.8 1.2-1.5 1.3-.9.2-2.4-.3-3.8-1.3-1.5-1-2.7-2.6-3.1-3.8-.2-.6-.2-1.2 0-1.7Z" />
+      </svg>
+    </a>
+
+    <!-- Modals -->
+    <div class="modal" data-modal aria-hidden="true">
+      <div class="modal__backdrop" data-close-modal></div>
+      <div class="modal__panel" role="dialog" aria-modal="true" aria-label="Details">
+        <button class="icon-btn modal__close" type="button" data-close-modal aria-label="Close">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button>
+        <div class="modal__content" data-modal-content></div>
+      </div>
+    </div>
+
+    <div class="lightbox" data-lightbox aria-hidden="true">
+      <div class="lightbox__backdrop" data-close-lightbox></div>
+      <figure class="lightbox__figure" role="dialog" aria-modal="true" aria-label="Image preview">
+        <button class="icon-btn lightbox__close" type="button" data-close-lightbox aria-label="Close preview">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button>
+        <img class="lightbox__img" alt="" data-lightbox-img />
+        <figcaption class="lightbox__cap" data-lightbox-cap></figcaption>
+        <div class="lightbox__nav">
+          <button class="icon-btn" type="button" data-lightbox-prev aria-label="Previous image">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M15 6 9 12l6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button class="icon-btn" type="button" data-lightbox-next aria-label="Next image">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m9 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </figure>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <aside class="cart" id="cart" data-cart aria-hidden="true">
+      <div class="cart__backdrop" data-close-cart></div>
+      <div class="cart__panel" role="dialog" aria-modal="true" aria-label="Shopping cart">
+        <header class="cart__head">
+          <h3 class="cart__title">Your Cart</h3>
+          <button class="icon-btn" type="button" data-close-cart aria-label="Close cart">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </button>
+        </header>
+
+        <div class="cart__items" data-cart-items aria-live="polite"></div>
+
+        <div class="cart__summary">
+          <div class="cart__line">
+            <span>Total</span>
+            <strong>Rs. <span data-cart-total>0</span></strong>
+          </div>
+          <button class="btn btn--wide" type="button" data-open-checkout>Checkout</button>
+          <button class="btn btn--ghost btn--wide" type="button" data-clear-cart>Clear cart</button>
+          <p class="cart__fine">No external payment API required. Submit the form to confirm your order.</p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Checkout Modal -->
+    <div class="modal" data-checkout aria-hidden="true">
+      <div class="modal__backdrop" data-close-checkout></div>
+      <div class="modal__panel modal__panel--wide" role="dialog" aria-modal="true" aria-label="Checkout">
+        <button class="icon-btn modal__close" type="button" data-close-checkout aria-label="Close">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button>
+        <div class="modal__content">
+          <div class="checkout">
+            <div class="checkout__left">
+              <h3 class="checkout__title">Checkout</h3>
+              <p class="checkout__sub">Fill details and submit to receive an order confirmation message.</p>
+              <form class="form" id="checkoutForm" novalidate>
+                <div class="form__row form__row--2">
+                  <label class="field">
+                    <span class="field__label">Name</span>
+                    <input class="field__control" type="text" name="name" autocomplete="name" required />
+                  </label>
+                  <label class="field">
+                    <span class="field__label">Phone</span>
+                    <input class="field__control" type="tel" name="phone" autocomplete="tel" required />
+                  </label>
+                </div>
+                <div class="form__row">
+                  <label class="field">
+                    <span class="field__label">Address</span>
+                    <input class="field__control" type="text" name="address" autocomplete="street-address" required />
+                  </label>
+                </div>
+                <div class="form__row">
+                  <label class="field">
+                    <span class="field__label">Payment Method</span>
+                    <select class="field__control" name="paymentMethod" required>
+                      <option value="" selected disabled>Select</option>
+                      <option value="Cash on Delivery">Cash on Delivery</option>
+                      <option value="Bank Transfer">Bank Transfer</option>
+                      <option value="eSewa">eSewa</option>
+                      <option value="Khalti">Khalti</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="form__actions">
+                  <button class="btn" type="submit">Place Order</button>
+                  <p class="form__msg" id="checkoutMsg" role="status" aria-live="polite"></p>
+                </div>
+              </form>
+            </div>
+            <div class="checkout__right">
+              <div class="panel panel--subtle">
+                <h4 class="panel__title">Order Summary</h4>
+                <div class="mini-list" data-checkout-summary></div>
+                <div class="cart__line cart__line--total">
+                  <span>Total</span>
+                  <strong>Rs. <span data-checkout-total>0</span></strong>
+                </div>
+                <p class="panel__fine">After submit, you’ll see an on-page confirmation. You can also contact us on WhatsApp for delivery coordination.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
