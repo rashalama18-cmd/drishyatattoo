@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
-    <link rel="preload" as="image" href="./heros.png" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preload" as="image" href="./assets/images/heros.png" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#home">Skip to content</a>
@@ -20,7 +20,7 @@
         <a class="brand" href="#home" aria-label="Drishya Tattoo home">
           <span class="brand__kicker">Boudha Ink Gallery Art</span>
           <span class="brand__row">
-            <img class="brand__logo" src="./companylogo.png" alt="Drishya Tattoo logo" />
+            <img class="brand__logo" src="./assets/images/companylogo.png" alt="Drishya Tattoo logo" />
             <span class="brand__name brand__display">Drishya Tattoo</span>
           </span>
         </a>
@@ -45,19 +45,6 @@
           </ul>
 
           <div class="nav__actions">
-            <button class="icon-btn" type="button" data-open-cart aria-label="Open cart">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2Zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2ZM6.2 6h14.95c.9 0 1.55.86 1.3 1.73l-1.6 5.6c-.22.77-.92 1.3-1.72 1.3H8.2c-.78 0-1.47-.5-1.7-1.24L4.3 4H2"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-              <span class="badge" data-cart-count aria-hidden="true">0</span>
-            </button>
             <a class="btn btn--ghost" href="#booking">Book Now</a>
           </div>
         </div>
@@ -78,7 +65,7 @@
           </div>
           <div class="trust">
             <div class="trust__item">
-              <span class="trust__value">Est. 2012</span>
+              <span class="trust__value">Est. 2019</span>
               <span class="trust__label">Boudha, Kathmandu</span>
             </div>
             <div class="trust__item">
@@ -106,11 +93,12 @@
           <div class="grid grid--cards">
             <button class="card person" type="button" data-person="raju">
               <span class="card__media">
-                <img src="./raju founder main artist.jpg" alt="Raju — Founder & Main Artist" loading="lazy" />
+                <img src="./assets/images/raju-founder-main-artist.jpg" alt="Raju — Founder & Main Artist" loading="lazy" />
               </span>
               <span class="card__body">
                 <span class="pill">Founder &amp; Main Artist</span>
-                <span class="card__title">Raju</span>
+                <span class="card__title">Raju Lama Yonzan</span>
+                <span class="card__meta">Nickname: Kala drishya</span>
                 <span class="card__meta">15+ years experience</span>
                 <span class="card__desc">Founder-led quality with a hygiene-first process and original designs. Click to read his message.</span>
               </span>
@@ -119,7 +107,7 @@
 
             <button class="card person" type="button" data-person="urken">
               <span class="card__media">
-                <img src="./urken artist.jpg" alt="Urken — artist" loading="lazy" />
+                <img src="./assets/images/urken-artist.jpg" alt="Urken — artist" loading="lazy" />
               </span>
               <span class="card__body">
                 <span class="pill">artist</span>
@@ -132,7 +120,7 @@
 
             <button class="card person" type="button" data-person="suvas">
               <span class="card__media">
-                <img src="./public/images/subash artist.jpg" alt="Suvas — artist" loading="lazy" />
+                <img src="./assets/images/subash-artist.jpg" alt="Suvas — artist" loading="lazy" />
               </span>
               <span class="card__body">
                 <span class="pill">artist</span>
@@ -145,7 +133,7 @@
 
             <button class="card person" type="button" data-person="robin">
               <span class="card__media">
-                <img src="./public/images/ROBIN manager.jpg" alt="Robin — Manager" loading="lazy" />
+                <img src="./assets/images/robin-manager.jpg" alt="Robin — Manager" loading="lazy" />
               </span>
               <span class="card__body">
                 <span class="pill">Manager</span>
@@ -160,35 +148,24 @@
           <div class="artist-spotlights" aria-label="Artist profiles">
             <article class="artist-spotlight" id="artist-raju">
               <div class="artist-spotlight__media">
-                <img src="./raju founder main artist.jpg" alt="Raju — Founder &amp; Main Artist" loading="lazy" width="400" height="480" />
+                <img src="./assets/images/raju-founder-main-artist.jpg" alt="Raju — Founder &amp; Main Artist" loading="lazy" width="400" height="480" />
               </div>
               <div class="artist-spotlight__body">
                 <p class="kicker">Founder &amp; Artist</p>
-                <h3 class="artist-spotlight__name">Raju</h3>
+                <h3 class="artist-spotlight__name">Raju Lama Yonzan</h3>
+                <p class="artist-spotlight__meta">Nickname: Kala drishya</p>
                 <p class="artist-spotlight__meta">15+ years experience</p>
                 <div class="artist-spotlight__bio">
                   <p>
-                    I founded Drishya Tattoo with a clear and purposeful vision: to create a studio where artistry, authenticity, and trust define every client
-                    experience. Each tattoo I create is treated as a unique and deeply personal work of art—carefully designed to align with the individual’s
-                    identity, story, and the way the artwork evolves over time.
+                    I began my artistic journey in 2009 with traditional Thangka painting. In 2012, I started tattooing in Nepal and continued working there
+                    until 2014.
                   </p>
                   <p>
-                    My practice is grounded in an uncompromising commitment to the highest standards of hygiene, precision, and professional integrity. From
-                    consultation to execution, every step is carried out with meticulous attention to detail, ensuring both safety and artistic excellence.
+                    From 2014 to 2019, I worked at Devilz Tattoo in Delhi, where I refined my technique and gained valuable professional experience.
                   </p>
                   <p>
-                    In recognition of my contributions to the field of art, I was honored in 2022 by the Nepal Academy of Fine Arts and received recognition
-                    from the Right Honourable President Bidya Devi Bhandari. I am also an award-winning tattoo artist, reflecting my continued dedication to
-                    excellence and innovation in the industry.
-                  </p>
-                  <p>
-                    My artistic journey began in 2009 with traditional Thangka painting, which laid the foundation for discipline, symbolism, and fine detail in my
-                    work. This background continues to influence my approach, allowing me to bring cultural authenticity and artistic depth into every tattoo I
-                    create.
-                  </p>
-                  <p>
-                    I specialize in authentic Buddhist art, Nepali traditional designs, fully customized concepts, and advanced freehand tattooing. Each piece is
-                    thoughtfully crafted to remain timeless, meaningful, and artistically distinctive.
+                    I returned to Nepal in 2019 and opened Boudha Ink Gallery Art. Since then, I have been fully dedicated to growing and promoting the
+                    studio with a focus on quality, creativity, and professional tattoo practice.
                   </p>
                 </div>
               </div>
@@ -201,7 +178,7 @@
               <p class="split__desc">Guest artist sessions bring fresh styles and techniques—available on selected dates.</p>
               <button class="card person person--compact person--international" type="button" data-person="nav">
                 <span class="card__media">
-                  <img src="./public/images/international artist.jpg" alt="Nav — International Artist" loading="lazy" />
+                  <img src="./assets/images/international-artist.jpg" alt="Nav — International Artist" loading="lazy" />
                 </span>
                 <span class="card__body">
                   <span class="pill">International Artist</span>
@@ -213,35 +190,6 @@
               </button>
             </div>
 
-            <div class="split__col">
-              <h3 class="split__title">Internal Artists</h3>
-              <p class="split__desc">
-                A studio is more than one artist. Our internal artists help with design refinement, prep, and consistent premium execution.
-              </p>
-              <div class="grid grid--mini">
-                <div class="card person person--mini person--textonly" role="group" aria-label="Internal artist — Linework specialist">
-                  <span class="card__body">
-                    <span class="pill">Internal Artist</span>
-                    <span class="card__title">Linework Specialist</span>
-                    <span class="card__desc">Crisp outlines, symmetry, and refined geometry for clean, long-lasting results.</span>
-                  </span>
-                </div>
-                <div class="card person person--mini person--textonly" role="group" aria-label="Internal artist — Blackwork & shading">
-                  <span class="card__body">
-                    <span class="pill">Internal Artist</span>
-                    <span class="card__title">Blackwork &amp; Shading</span>
-                    <span class="card__desc">Smooth gradients, contrast control, and a premium healed finish.</span>
-                  </span>
-                </div>
-                <div class="card person person--mini person--textonly" role="group" aria-label="Internal artist — Fine line minimal">
-                  <span class="card__body">
-                    <span class="pill">Internal Artist</span>
-                    <span class="card__title">Fine Line Minimal</span>
-                    <span class="card__desc">Elegant minimal pieces with careful placement, proportion, and refinement.</span>
-                  </span>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -314,7 +262,7 @@
             </div>
             <div class="about__media">
               <div class="frame">
-                <img src="./hero-studio.png" alt="Inside Drishya Tattoo studio" loading="lazy" />
+                <img src="./assets/images/hero-studio.png" alt="Inside Drishya Tattoo studio" loading="lazy" />
               </div>
             </div>
           </div>
@@ -400,7 +348,7 @@
         <div class="container">
           <div class="section__head">
             <h2 class="section__title">Art Shop</h2>
-            <p class="section__sub">Curated premium artworks. Add to cart, choose size, and checkout with an internal form.</p>
+            <p class="section__sub">Curated premium artworks. Choose your preferred size and contact us directly for order confirmation.</p>
           </div>
 
           <div class="grid grid--shop" data-shop-grid></div>
@@ -689,98 +637,7 @@
       </figure>
     </div>
 
-    <!-- Cart Sidebar -->
-    <aside class="cart" id="cart" data-cart aria-hidden="true">
-      <div class="cart__backdrop" data-close-cart></div>
-      <div class="cart__panel" role="dialog" aria-modal="true" aria-label="Shopping cart">
-        <header class="cart__head">
-          <h3 class="cart__title">Your Cart</h3>
-          <button class="icon-btn" type="button" data-close-cart aria-label="Close cart">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-            </svg>
-          </button>
-        </header>
 
-        <div class="cart__items" data-cart-items aria-live="polite"></div>
-
-        <div class="cart__summary">
-          <div class="cart__line">
-            <span>Total</span>
-            <strong>Rs. <span data-cart-total>0</span></strong>
-          </div>
-          <button class="btn btn--wide" type="button" data-open-checkout>Checkout</button>
-          <button class="btn btn--ghost btn--wide" type="button" data-clear-cart>Clear cart</button>
-          <p class="cart__fine">No external payment API required. Submit the form to confirm your order.</p>
-        </div>
-      </div>
-    </aside>
-
-    <!-- Checkout Modal -->
-    <div class="modal" data-checkout aria-hidden="true">
-      <div class="modal__backdrop" data-close-checkout></div>
-      <div class="modal__panel modal__panel--wide" role="dialog" aria-modal="true" aria-label="Checkout">
-        <button class="icon-btn modal__close" type="button" data-close-checkout aria-label="Close">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-          </svg>
-        </button>
-        <div class="modal__content">
-          <div class="checkout">
-            <div class="checkout__left">
-              <h3 class="checkout__title">Checkout</h3>
-              <p class="checkout__sub">Fill details and submit to receive an order confirmation message.</p>
-              <form class="form" id="checkoutForm" novalidate>
-                <div class="form__row form__row--2">
-                  <label class="field">
-                    <span class="field__label">Name</span>
-                    <input class="field__control" type="text" name="name" autocomplete="name" required />
-                  </label>
-                  <label class="field">
-                    <span class="field__label">Phone</span>
-                    <input class="field__control" type="tel" name="phone" autocomplete="tel" required />
-                  </label>
-                </div>
-                <div class="form__row">
-                  <label class="field">
-                    <span class="field__label">Address</span>
-                    <input class="field__control" type="text" name="address" autocomplete="street-address" required />
-                  </label>
-                </div>
-                <div class="form__row">
-                  <label class="field">
-                    <span class="field__label">Payment Method</span>
-                    <select class="field__control" name="paymentMethod" required>
-                      <option value="" selected disabled>Select</option>
-                      <option value="Cash on Delivery">Cash on Delivery</option>
-                      <option value="Bank Transfer">Bank Transfer</option>
-                      <option value="eSewa">eSewa</option>
-                      <option value="Khalti">Khalti</option>
-                    </select>
-                  </label>
-                </div>
-                <div class="form__actions">
-                  <button class="btn" type="submit">Place Order</button>
-                  <p class="form__msg" id="checkoutMsg" role="status" aria-live="polite"></p>
-                </div>
-              </form>
-            </div>
-            <div class="checkout__right">
-              <div class="panel panel--subtle">
-                <h4 class="panel__title">Order Summary</h4>
-                <div class="mini-list" data-checkout-summary></div>
-                <div class="cart__line cart__line--total">
-                  <span>Total</span>
-                  <strong>Rs. <span data-checkout-total>0</span></strong>
-                </div>
-                <p class="panel__fine">After submit, you’ll see an on-page confirmation. You can also contact us on WhatsApp for delivery coordination.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="./script.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
   </body>
 </html>
