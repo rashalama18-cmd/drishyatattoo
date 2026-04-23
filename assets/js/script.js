@@ -106,7 +106,20 @@ const DATA = {
       meta: "15+ years experience",
       photo: "./assets/images/raju-founder-main-artist.jpg",
       desc:
-        "I began my artistic journey in 2009 with traditional Thangka painting. In 2012, I started tattooing in Nepal and continued working there until 2014.\n\nFrom 2014 to 2019, I worked at Devilz Tattoo in Delhi, where I refined my technique and gained valuable professional experience.\n\nI returned to Nepal in 2019 and opened Boudha Ink Gallery Art. Since then, I have been fully dedicated to growing and promoting the studio with a focus on quality, creativity, and professional tattoo practice.",
+        "I am an art artist and tattoo artist based in Kathmandu, Nepal, whose practice explores a refined balance between sacred tradition and contemporary expression. Inspired by Buddhist and Hindu philosophy, my work is expressed through a distinctive neo-traditional language—precise, balanced, and deeply symbolic.
+
+From 2012 to 2014, I began my creative journey in both painting and tattooing, building a strong artistic foundation. Since 2015, I have been working professionally in the tattoo field, further refining my skills at Devilz Tattooz in New Delhi, India.
+
+In 2019, after returning from Devilz Tattooz, I established Boudha Ink Gallery Art in Kathmandu, Nepal. Under this company, “Drishya Tattoo” was introduced as the public identity, formally expanding my tattoo practice.
+
+My work is defined by a strong commitment to freehand design, integrating Buddhist and Hindu iconography with geometric structures and Nepali motifs. Each piece is approached as a unique and intentional composition—thoughtfully developed with clarity, depth, and longevity in mind.
+
+Alongside tattooing, I am actively engaged in traditional handicrafts and custom art, transforming cultural heritage and personal narratives into refined artistic forms. I also provide professional training and mentorship in tattooing and the arts, contributing to the growth and development of emerging artists.
+
+In 2020, I was honored at the National Exhibition organized by the Nepal Academy of Fine Arts, receiving national recognition from the President of Nepal. In 2022, I was invited to conduct a seminar at Aliens Tattoo School, further extending my role into education and mentorship.
+
+Tattoo and fine arts painting, for me, are not merely professions—they are mediums through which I translate deeper ideas, emotions, and spiritual sensibilities into enduring visual expressions.
+",
     },
     urken: {
       name: "Urken",
