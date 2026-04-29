@@ -7,7 +7,10 @@
     <title>Drishya Tattoo | Ink Your Story with Art</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preload" as="image" href="./assets/images/heros.png" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
@@ -56,11 +59,11 @@
       <section class="hero" id="home" aria-label="Home">
         <div class="hero__bg" role="img" aria-label="Tattoo studio hero image"></div>
         <div class="container hero__content">
-          <p class="kicker">Boudha Ink Gallery Art</p>
+          <p class="kicker">Boudha Ink Gallery Art · Est. 2019</p>
           <h1 class="hero__title brand__display">Drishya Tattoo</h1>
-          <p class="hero__tagline">Ink Your Story with Art</p>
+          <p class="hero__tagline">Ink Your Story with Art — premium custom tattoos, original concepts, and a hygiene-first studio in the heart of Boudha, Kathmandu.</p>
           <div class="hero__cta">
-            <a class="btn" href="#booking">Book Now</a>
+            <a class="btn" href="#booking">Book a Session</a>
             <a class="btn btn--ghost" href="#gallery">View Gallery</a>
           </div>
           <div class="trust">
@@ -78,12 +81,20 @@
             </div>
           </div>
         </div>
+        <a class="hero__scroll" href="#team" aria-label="Scroll to next section">
+          <span>Scroll</span>
+          <svg viewBox="0 0 14 22" aria-hidden="true">
+            <rect x="1" y="1" width="12" height="20" rx="6" fill="none" stroke="currentColor" stroke-width="1.5" />
+            <circle class="hero__scroll-dot" cx="7" cy="7" r="1.6" fill="currentColor" />
+          </svg>
+        </a>
       </section>
 
       <!-- OUR TEAM -->
       <section class="section" id="team" aria-label="Our Team">
         <div class="container">
           <div class="section__head">
+            <p class="kicker">The Studio</p>
             <h2 class="section__title">Our Team</h2>
             <p class="section__sub">
               Trust starts with visibility. Meet the artists and the people who keep your experience professional, clean, and comfortable.
@@ -133,11 +144,11 @@
 
             <button class="card person" type="button" data-person="robin">
               <span class="card__media">
-                <img src="./assets/images/robin-manager.jpg" alt="Robin — Manager" loading="lazy" />
+                <img src="./assets/images/manager.jpeg" alt="Warihangma Rai — Manager" loading="lazy" />
               </span>
               <span class="card__body">
                 <span class="pill">Manager</span>
-                <span class="card__title">Robin</span>
+                <span class="card__title">Warihangma Rai</span>
                 <span class="card__meta">Studio operations</span>
                 <span class="card__desc">Bookings, aftercare guidance, and a smooth experience from start to finish.</span>
               </span>
@@ -157,15 +168,36 @@
                 <p class="artist-spotlight__meta">15+ years experience</p>
                 <div class="artist-spotlight__bio">
                   <p>
-                    I began my artistic journey in 2009 with traditional Thangka painting. In 2012, I started tattooing in Nepal and continued working there
-                    until 2014.
+                    I am an art artist and tattoo artist based in Kathmandu, Nepal, whose practice explores a refined balance between sacred tradition and
+                    contemporary expression. Inspired by Buddhist and Hindu philosophy, my work is expressed through a distinctive neo-traditional language -
+                    precise, balanced, and deeply symbolic.
                   </p>
                   <p>
-                    From 2014 to 2019, I worked at Devilz Tattoo in Delhi, where I refined my technique and gained valuable professional experience.
+                    From 2012 to 2014, I began my creative journey in both painting and tattooing, building a strong artistic foundation. Since 2015, I have
+                    been working professionally in the tattoo field, further refining my skills at Devilz Tattooz in New Delhi, India.
                   </p>
                   <p>
-                    I returned to Nepal in 2019 and opened Boudha Ink Gallery Art. Since then, I have been fully dedicated to growing and promoting the
-                    studio with a focus on quality, creativity, and professional tattoo practice.
+                    In 2019, after returning from Devilz Tattooz, I established Boudha Ink Gallery Art in Kathmandu, Nepal. Under this company, "Drishya
+                    Tattoo" was introduced as the public identity, formally expanding my tattoo practice.
+                  </p>
+                  <p>
+                    My work is defined by a strong commitment to freehand design, integrating Buddhist and Hindu iconography with geometric structures and
+                    Nepali motifs. Each piece is approached as a unique and intentional composition - thoughtfully developed with clarity, depth, and
+                    longevity in mind.
+                  </p>
+                  <p>
+                    Alongside tattooing, I am actively engaged in traditional handicrafts and custom art, transforming cultural heritage and personal
+                    narratives into refined artistic forms. I also provide professional training and mentorship in tattooing and the arts, contributing to the
+                    growth and development of emerging artists.
+                  </p>
+                  <p>
+                    In 2020, I was honored at the National Exhibition organized by the Nepal Academy of Fine Arts, receiving national recognition from the
+                    President of Nepal. In 2022, I was invited to conduct a seminar at Aliens Tattoo School, further extending my role into education and
+                    mentorship.
+                  </p>
+                  <p>
+                    Tattoo and fine arts painting, for me, are not merely professions - they are mediums through which I translate deeper ideas, emotions, and
+                    spiritual sensibilities into enduring visual expressions.
                   </p>
                 </div>
               </div>
@@ -200,28 +232,35 @@
           <div class="about">
             <div class="about__copy">
               <div class="section__head section__head--tight">
+                <p class="kicker">Our Story</p>
                 <h2 class="section__title">About Drishya Tattoo</h2>
                 <p class="section__sub">
-                  Established in <strong>2012</strong>, we are a professional tattoo studio in <strong>Boudha, Kathmandu</strong> focused on creativity,
-                  hygiene, and customer satisfaction.
+                  Established in <strong>2019</strong>, <strong>Boudha Ink Gallery Art</strong> is a registered creative company based in
+                  <strong>Boudha, Kathmandu, Nepal</strong>, dedicated to professional tattoo artistry and fine art creation.
                 </p>
               </div>
               <div class="prose">
                 <p>
-                  At Drishya Tattoo, we offer <strong>premium tattoo services</strong> built on original design, careful placement, and a clean,
-                  professional process. Every piece is approached as art—planned for the way it looks today and how it will heal over time.
+                  Under this establishment, <strong>Drishya Tattoo</strong> operates as the official tattoo studio and public identity, providing a
+                  structured and professional platform for custom tattoo design and high-quality tattoo services.
                 </p>
                 <p>
-                  Our <strong>Tattoo Training School</strong> is structured for serious learners, covering fundamentals, hygiene discipline, studio workflow,
-                  and hands-on practice in a real professional environment.
+                  At <strong>Drishya Tattoo</strong>, we specialize in premium custom tattoo work based on original concepts, precise execution, and strict
+                  hygiene standards. Each design is developed as a unique artistic composition, carefully crafted with attention to detail, placement, balance,
+                  and long-term healing quality. Our process ensures a fully professional experience from consultation through to aftercare.
                 </p>
                 <p>
-                  We also create <strong>Handicrafts Arts</strong>—handmade artworks crafted with patience and detail for collectors, gifting, and decor.
+                  Our <strong>Tattoo Training School</strong> is designed for dedicated learners who aim to build a professional career in tattooing. The
+                  program includes fundamental techniques, hygiene and safety standards, studio workflow systems, and intensive hands-on training within a real
+                  professional studio environment.
                 </p>
                 <p>
-                  What makes us different is our focus on <strong>creativity</strong>, <strong>hygiene</strong>, <strong>originality</strong>, and
-                  <strong>professionalism</strong>. We don’t copy—our goal is to design something that fits you and earns your trust from consultation to
-                  aftercare.
+                  In addition, we create <strong>Handicrafts / Fine Arts</strong>, offering handcrafted artworks made with precision, patience, and artistic
+                  integrity. These pieces are designed for collectors, gifting purposes, and refined interior aesthetics.
+                </p>
+                <p>
+                  Our philosophy is rooted in originality, discipline, hygiene, and professionalism. We do not replicate designs; instead, we focus on
+                  creating meaningful, client-centered artwork that reflects individuality, intention, and artistic excellence.
                 </p>
               </div>
               <ul class="checklist">
@@ -273,6 +312,7 @@
       <section class="section" id="services" aria-label="Services">
         <div class="container">
           <div class="section__head">
+            <p class="kicker">What We Offer</p>
             <h2 class="section__title">Services</h2>
             <p class="section__sub">Click a service to preview real work and see what to expect.</p>
           </div>
@@ -328,6 +368,7 @@
       <section class="section section--soft" id="gallery" aria-label="Gallery">
         <div class="container">
           <div class="section__head">
+            <p class="kicker">Studio Portfolio</p>
             <h2 class="section__title">Gallery</h2>
             <p class="section__sub">Filter by category and tap any image for a premium lightbox preview.</p>
           </div>
@@ -347,6 +388,7 @@
       <section class="section" id="shop" aria-label="Art Shop">
         <div class="container">
           <div class="section__head">
+            <p class="kicker">Curated Artworks</p>
             <h2 class="section__title">Art Shop</h2>
             <p class="section__sub">Curated premium artworks. Choose your preferred size and contact us directly for order confirmation.</p>
           </div>
@@ -366,6 +408,7 @@
       <section class="section section--soft" id="booking" aria-label="Booking">
         <div class="container">
           <div class="section__head">
+            <p class="kicker">Reserve a Slot</p>
             <h2 class="section__title">Booking</h2>
             <p class="section__sub">Choose a service, share the details, and we’ll confirm your slot.</p>
           </div>
@@ -447,6 +490,7 @@
       <section class="section" id="contact" aria-label="Contact">
         <div class="container">
           <div class="section__head">
+            <p class="kicker">Get in Touch</p>
             <h2 class="section__title">Contact</h2>
             <p class="section__sub">Boudha, Kathmandu, Nepal. Visit us or message us on social platforms.</p>
           </div>
@@ -639,5 +683,49 @@
 
 
     <script src="./assets/js/script.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TattooParlor",
+        "name": "Drishya Tattoo",
+        "alternateName": "Boudha Ink Gallery Art",
+        "url": "https://www.drishyatattoo.com/",
+        "image": "./assets/images/heros.png",
+        "description": "Professional tattoo studio in Boudha, Kathmandu focused on custom tattoo artistry, hygiene, and premium studio experience.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Boudha, Kathmandu",
+          "addressCountry": "NP"
+        },
+        "areaServed": "Kathmandu",
+        "foundingDate": "2019",
+        "sameAs": [
+          "https://www.facebook.com/boudhainkgalleryart/",
+          "https://www.instagram.com/drishya_tattoo/",
+          "https://www.youtube.com/"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Boudha Ink Gallery Art",
+        "brand": {
+          "@type": "Brand",
+          "name": "Drishya Tattoo"
+        },
+        "url": "https://www.drishyatattoo.com/",
+        "logo": "./assets/images/companylogo.png"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Drishya Tattoo",
+        "url": "https://www.drishyatattoo.com/"
+      }
+    </script>
   </body>
 </html>

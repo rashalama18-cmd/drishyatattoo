@@ -106,20 +106,7 @@ const DATA = {
       meta: "15+ years experience",
       photo: "./assets/images/raju-founder-main-artist.jpg",
       desc:
-        "I am an art artist and tattoo artist based in Kathmandu, Nepal, whose practice explores a refined balance between sacred tradition and contemporary expression. Inspired by Buddhist and Hindu philosophy, my work is expressed through a distinctive neo-traditional language—precise, balanced, and deeply symbolic.
-
-From 2012 to 2014, I began my creative journey in both painting and tattooing, building a strong artistic foundation. Since 2015, I have been working professionally in the tattoo field, further refining my skills at Devilz Tattooz in New Delhi, India.
-
-In 2019, after returning from Devilz Tattooz, I established Boudha Ink Gallery Art in Kathmandu, Nepal. Under this company, “Drishya Tattoo” was introduced as the public identity, formally expanding my tattoo practice.
-
-My work is defined by a strong commitment to freehand design, integrating Buddhist and Hindu iconography with geometric structures and Nepali motifs. Each piece is approached as a unique and intentional composition—thoughtfully developed with clarity, depth, and longevity in mind.
-
-Alongside tattooing, I am actively engaged in traditional handicrafts and custom art, transforming cultural heritage and personal narratives into refined artistic forms. I also provide professional training and mentorship in tattooing and the arts, contributing to the growth and development of emerging artists.
-
-In 2020, I was honored at the National Exhibition organized by the Nepal Academy of Fine Arts, receiving national recognition from the President of Nepal. In 2022, I was invited to conduct a seminar at Aliens Tattoo School, further extending my role into education and mentorship.
-
-Tattoo and fine arts painting, for me, are not merely professions—they are mediums through which I translate deeper ideas, emotions, and spiritual sensibilities into enduring visual expressions.
-",
+        "I am an art artist and tattoo artist based in Kathmandu, Nepal, whose practice explores a refined balance between sacred tradition and contemporary expression. Inspired by Buddhist and Hindu philosophy, my work is expressed through a distinctive neo-traditional language - precise, balanced, and deeply symbolic.\n\nFrom 2012 to 2014, I began my creative journey in both painting and tattooing, building a strong artistic foundation. Since 2015, I have been working professionally in the tattoo field, further refining my skills at Devilz Tattooz in New Delhi, India.\n\nIn 2019, after returning from Devilz Tattooz, I established Boudha Ink Gallery Art in Kathmandu, Nepal. Under this company, \"Drishya Tattoo\" was introduced as the public identity, formally expanding my tattoo practice.\n\nMy work is defined by a strong commitment to freehand design, integrating Buddhist and Hindu iconography with geometric structures and Nepali motifs. Each piece is approached as a unique and intentional composition - thoughtfully developed with clarity, depth, and longevity in mind.\n\nAlongside tattooing, I am actively engaged in traditional handicrafts and custom art, transforming cultural heritage and personal narratives into refined artistic forms. I also provide professional training and mentorship in tattooing and the arts, contributing to the growth and development of emerging artists.\n\nIn 2020, I was honored at the National Exhibition organized by the Nepal Academy of Fine Arts, receiving national recognition from the President of Nepal. In 2022, I was invited to conduct a seminar at Aliens Tattoo School, further extending my role into education and mentorship.\n\nTattoo and fine arts painting, for me, are not merely professions - they are mediums through which I translate deeper ideas, emotions, and spiritual sensibilities into enduring visual expressions.",
     },
     urken: {
       name: "Urken",
@@ -136,10 +123,10 @@ Tattoo and fine arts painting, for me, are not merely professions—they are med
       desc: "Realism-focused work with detail-first shading, contrast, and premium finishing.",
     },
     robin: {
-      name: "Robin",
+      name: "Warihangma Rai",
       role: "Manager",
       meta: "Studio operations",
-      photo: "./assets/images/robin-manager.jpg",
+      photo: "./assets/images/manager.jpeg",
       desc: "Your point of contact for bookings, confirmations, and a smooth studio experience.",
     },
     nav: {
